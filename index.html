@@ -2,18 +2,50 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Cat</title>
+    <title>Registration</title>
   </head>
   <body>
-    <h1>Cat</h1>
-    <p>Hi, I'm a cat</p>
-    <img src="https://jooinn.com/images1280_/gray-cat.jpg"></img>
-    <h2>Some of my favorite places:</h2>
-      <ul>
-        <li>The couch</li>
-        <li>The kitchen</li>
-        <li>The litter box</li>
-      </ul>
-      <div>Make sure to follow me on <a href="http://instagram.com">Instagram</a></div>
+    <h1>Register</h1>
+    <form action="" method="post">
+      <div>
+        <label for="firstname">First Name:</label>
+        <input id="firstname" type="text" placeholder="John" required>
+        <label for="lastname">Last Name:</label>
+        <input id="lastname" type="text" placeholder="Smith" required>
+      </div>
+      <div>
+        <label for="male">Male:</label>
+        <input name="Age" type="radio" required>
+        <label for="female">Female:</label>
+        <input name="Age" type="radio" required>
+        <label for="other">Other:</label>
+        <input name="Age" type="radio" required>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="your email" required>
+        <label for="password">Password:</label>
+        <input id="password" type="password" placeholder="your password" required>
+      </div>
+      <div>
+        Birthday:
+        <select name="month">
+          <option>month</option>
+        </select>
+        <select name="day">
+          <option>day</option>
+        </select>
+        <select name="year">
+          <option>year</option>
+        </select>
+      </div>
+      <div>
+        <label for="checkb">I agree to the terms and conditions</label>
+        <input id="checkb" type="checkbox" required>
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
   </body>
 </html>
